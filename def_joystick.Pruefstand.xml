@@ -2,40 +2,39 @@
 <!--
 Joystick input:
 ================================
-	//primary x-axis
-	JOY_CTRL_XP_P=0,
-	JOY_CTRL_XN_P,
-	JOY_CTRL_X_P,
-	//primary y-axis
-	JOY_CTRL_YP_P,
-	JOY_CTRL_YN_P,
-	JOY_CTRL_Y_P,
-	//secondary x-axis
-	JOY_CTRL_XP_S,
-	JOY_CTRL_XN_S,
-	JOY_CTRL_X_S,
-	//secondary y-axis
-	JOY_CTRL_YP_S,
-	JOY_CTRL_YN_S,
-	JOY_CTRL_Y_S,
-	//Override
-	JOY_CTRL_OVR,
-	//digital cross control
-	JOY_CTRL_KT_U,
-	JOY_CTRL_KT_D,
-	JOY_CTRL_KT_L,
-	JOY_CTRL_KT_R,
-	//buttons
-	JOY_CTRL_BT_UL,
-	JOY_CTRL_BT_UM,
-	JOY_CTRL_BT_UR,
-	JOY_CTRL_BT_DL,
-	JOY_CTRL_BT_DR,
-	//backside
-	JOY_CTRL_FG,
-	JOY_CTRL_KS_U,
-	JOY_CTRL_KS_D,
-	JOY_CTRL_COUNT
+//primary x-axis
+{JOY_CTRL_XP_P,		{"Joy_X_p",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_XN_P,		{"Joy_X_n",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_X_P,		{"Joy_X",	PROCIM_NOT_MAPPED}},
+//primary y-axis
+{JOY_CTRL_YP_P,		{"Joy_Y_p",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_YN_P,		{"Joy_Y_n",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_Y_P,		{"Joy_Y",	PROCIM_NOT_MAPPED}},
+//secondary x-axis
+{JOY_CTRL_XP_S,		{"Joy_x_p",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_XN_S,		{"Joy_x_n",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_X_S,		{"Joy_x",	PROCIM_NOT_MAPPED}},
+//secondary y-axis
+{JOY_CTRL_YP_S,		{"Joy_y_p",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_YN_S,		{"Joy_y_n",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_Y_S,		{"Joy_y",	PROCIM_NOT_MAPPED}},
+//Override
+{JOY_CTRL_OVR,		{"Joy_Ovr",	PROCIM_NOT_MAPPED}},
+//digital cross control
+{JOY_CTRL_KT_U,		{"Joy_KT_U",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KT_D,		{"Joy_KT_D",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KT_L,		{"Joy_KT_L",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KT_R,		{"Joy_KT_R",PROCIM_NOT_MAPPED}},
+//buttons
+{JOY_CTRL_BT_UL,	{"Joy_BT_UL",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_BT_UM,	{"Joy_BT_UM",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_BT_UR,	{"Joy_BT_UR",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_BT_DL,	{"Joy_BT_DL",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_BT_DR,	{"Joy_BT_DR",PROCIM_NOT_MAPPED}},
+//backside
+{JOY_CTRL_FG,		{"Joy_FG",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KS_U,		{"Joy_KS_U",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KS_D,		{"Joy_KS_D",PROCIM_NOT_MAPPED}}
 ==================================
 USERSLOTS 
 ==================================
@@ -68,5 +67,5 @@ USERSLOT_SINGLE_VALVE_VAL,
 
 
 <config>
-	<JOY_CTRL_X_P />
+	<USERSLOT_MENU_DOWN key="Joy_X_p" />
 </config>
