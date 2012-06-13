@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!--
+Joystick input:
+================================
+	//primary x-axis
+	JOY_CTRL_XP_P=0,
+	JOY_CTRL_XN_P,
+	JOY_CTRL_X_P,
+	//primary y-axis
+	JOY_CTRL_YP_P,
+	JOY_CTRL_YN_P,
+	JOY_CTRL_Y_P,
+	//secondary x-axis
+	JOY_CTRL_XP_S,
+	JOY_CTRL_XN_S,
+	JOY_CTRL_X_S,
+	//secondary y-axis
+	JOY_CTRL_YP_S,
+	JOY_CTRL_YN_S,
+	JOY_CTRL_Y_S,
+	//Override
+	JOY_CTRL_OVR,
+	//digital cross control
+	JOY_CTRL_KT_U,
+	JOY_CTRL_KT_D,
+	JOY_CTRL_KT_L,
+	JOY_CTRL_KT_R,
+	//buttons
+	JOY_CTRL_BT_UL,
+	JOY_CTRL_BT_UM,
+	JOY_CTRL_BT_UR,
+	JOY_CTRL_BT_DL,
+	JOY_CTRL_BT_DR,
+	//backside
+	JOY_CTRL_FG,
+	JOY_CTRL_KS_U,
+	JOY_CTRL_KS_D,
+	JOY_CTRL_COUNT
+==================================
+USERSLOTS 
+==================================
+/// menu functions
+USERSLOT_MENU_ENTER,
+USERSLOT_MENU_ESCAPE,
+USERSLOT_MENU_UP,
+USERSLOT_MENU_DOWN,
+USERSLOT_MENU_LEFT,
+USERSLOT_MENU_RIGHT,
+
+/// hydraulic and safety functions
+USERSLOT_HYD_ENABLE,
+USERSLOT_HYD_PRESSURE,
+
+/// degrees of freedom working space
+USERSLOT_TRANSLATE_HORIZONTAL,
+USERSLOT_TRANSLATE_VERTICAL,
+USERSLOT_TRANSLATE_LONGITUDINAL,
+USERSLOT_ROTATE_HORIZONTAL,
+USERSLOT_ROTATE_VERTICAL,
+USERSLOT_ROTATE_LONGITUDINAL,
+
+/// degrees of freedom in single axis space
+USERSLOT_SINGLE_POSITION,
+USERSLOT_SINGLE_VELOCITY,
+USERSLOT_SINGLE_VALVE_VAL,
+
+-->
+
+
+<config>
+	<JOY_CTRL_X_P />
+</config>
