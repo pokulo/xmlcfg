@@ -42,7 +42,7 @@ joystick_key_t joy_loockup[JOY_COUNT] = {
 //-------------------------------------userslots--------------------------------------------------
 enum userslot_bool_key{
 	MENU_UP,
-	MENU_DOWN,
+USERSLOT_MENU_RIGHT	MENU_DOWN,
 	MENU_LEFT,
 	MENU_RIGHT,
 	USERSLOT_BOOL_COUNT
@@ -53,7 +53,7 @@ typedef struct {
 	char str[MAX_STRING_LENGTH];
 }userslot_bool_key_t;
 
-userslot_bool_key_t userslot_bool_loockup[USERSLOT_BOOL_COUNT] = {
+userslot_bool_key_t userslot_bool_lookup[USERSLOT_BOOL_COUNT] = {
 		{MENU_UP,JOY_KEY_NOT_DEFINED,"MENU_UP"},
 		{MENU_DOWN,JOY_KEY_NOT_DEFINED,"MENU_DOWN"},
 		{MENU_LEFT,JOY_KEY_NOT_DEFINED,"MENU_LEFT"},
