@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
  
 <!DOCTYPE joystick_config [
@@ -24,3 +25,76 @@
 	<MENU_LEFT key="Joy_DC_L"/>
 	<MENU_RIGHT key="Joy_DC_R"/>
 </joystick_config>
+=======
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!--
+Joystick input:
+================================
+//primary x-axis
+{JOY_CTRL_XP_P,		{"Joy_X_p",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_XN_P,		{"Joy_X_n",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_X_P,		{"Joy_X",	PROCIM_NOT_MAPPED}},
+//primary y-axis
+{JOY_CTRL_YP_P,		{"Joy_Y_p",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_YN_P,		{"Joy_Y_n",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_Y_P,		{"Joy_Y",	PROCIM_NOT_MAPPED}},
+//secondary x-axis
+{JOY_CTRL_XP_S,		{"Joy_x_p",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_XN_S,		{"Joy_x_n",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_X_S,		{"Joy_x",	PROCIM_NOT_MAPPED}},
+//secondary y-axis
+{JOY_CTRL_YP_S,		{"Joy_y_p",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_YN_S,		{"Joy_y_n",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_Y_S,		{"Joy_y",	PROCIM_NOT_MAPPED}},
+//Override
+{JOY_CTRL_OVR,		{"Joy_Ovr",	PROCIM_NOT_MAPPED}},
+//digital cross control
+{JOY_CTRL_KT_U,		{"Joy_KT_U",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KT_D,		{"Joy_KT_D",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KT_L,		{"Joy_KT_L",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KT_R,		{"Joy_KT_R",PROCIM_NOT_MAPPED}},
+//buttons
+{JOY_CTRL_BT_UL,	{"Joy_BT_UL",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_BT_UM,	{"Joy_BT_UM",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_BT_UR,	{"Joy_BT_UR",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_BT_DL,	{"Joy_BT_DL",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_BT_DR,	{"Joy_BT_DR",PROCIM_NOT_MAPPED}},
+//backside
+{JOY_CTRL_FG,		{"Joy_FG",	PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KS_U,		{"Joy_KS_U",PROCIM_NOT_MAPPED}},
+{JOY_CTRL_KS_D,		{"Joy_KS_D",PROCIM_NOT_MAPPED}}
+==================================
+USERSLOTS 
+==================================
+/// menu functions
+USERSLOT_MENU_ENTER,
+USERSLOT_MENU_ESCAPE,
+USERSLOT_MENU_UP,
+USERSLOT_MENU_DOWN,
+USERSLOT_MENU_LEFT,
+USERSLOT_MENU_RIGHT,
+
+/// hydraulic and safety functions
+USERSLOT_HYD_ENABLE,
+USERSLOT_HYD_PRESSURE,
+
+/// degrees of freedom working space
+USERSLOT_TRANSLATE_HORIZONTAL,
+USERSLOT_TRANSLATE_VERTICAL,
+USERSLOT_TRANSLATE_LONGITUDINAL,
+USERSLOT_ROTATE_HORIZONTAL,
+USERSLOT_ROTATE_VERTICAL,
+USERSLOT_ROTATE_LONGITUDINAL,
+
+/// degrees of freedom in single axis space
+USERSLOT_SINGLE_POSITION,
+USERSLOT_SINGLE_VELOCITY,
+USERSLOT_SINGLE_VALVE_VAL,
+
+-->
+
+
+<config>
+	<USERSLOT_MENU_DOWN key="Joy_X_p" />
+</config>
+>>>>>>> a41e6e4b82997ae1349f017e25b80d78cdfb60aa
